@@ -88,6 +88,7 @@ namespace Calculadora.ViewModels
                         else
                         {
                             CurrentNumber = Double.Parse(parameter);
+                            State = false;
                         }
                     }
                 });
