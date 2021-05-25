@@ -1,0 +1,15 @@
+C:\Users\Gustavo Blanco\RiderProjects\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\Calculadora.csprojAssemblyReference.cache
+C:\Users\Gustavo Blanco\RiderProjects\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Gustavo Blanco\RiderProjects\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Gustavo Blanco\RiderProjects\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\Calculadora.AssemblyInfoInputs.cache
+C:\Users\Gustavo Blanco\RiderProjects\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\Calculadora.AssemblyInfo.cs
+C:\Users\Gustavo Blanco\RiderProjects\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo Blanco\RiderProjects\Calculadora\Calculadora\Calculadora\bin\Debug\netstandard2.0\Calculadora.deps.json
+C:\Users\Gustavo Blanco\RiderProjects\Calculadora\Calculadora\Calculadora\bin\Debug\netstandard2.0\Calculadora.dll
+C:\Users\Gustavo Blanco\RiderProjects\Calculadora\Calculadora\Calculadora\bin\Debug\netstandard2.0\ref\Calculadora.dll
+C:\Users\Gustavo Blanco\RiderProjects\Calculadora\Calculadora\Calculadora\bin\Debug\netstandard2.0\Calculadora.pdb
+C:\Users\Gustavo Blanco\RiderProjects\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Gustavo Blanco\RiderProjects\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\Calculadora.dll
+C:\Users\Gustavo Blanco\RiderProjects\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\ref\Calculadora.dll
+C:\Users\Gustavo Blanco\RiderProjects\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\Calculadora.pdb
+C:\Users\Gustavo Blanco\RiderProjects\Calculadora\Calculadora\Calculadora\obj\Debug\netstandard2.0\Views\Calculator.xaml.g.cs
