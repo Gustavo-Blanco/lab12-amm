@@ -37,7 +37,15 @@ namespace Calculadora.ViewModels
                 }
             }
         }
-        
+
+        private bool _state = false;
+
+        public bool State
+        {
+            get => _state;
+            set => _state = value;
+        }
+
         private string _operation = "";
 
         public string Operation
@@ -64,8 +72,24 @@ namespace Calculadora.ViewModels
             SelectNumber = new Command<String>(
                 execute: (string parameter) =>
                 {
-                    CurrentNumber = CurrentNumber == 0 || Operation == "" ? Double.Parse(parameter) : 
-                        Double.Parse(CurrentNumber+parameter);
+                    //state true = despues de un resultado
+                    //state false = antes de un resultado
+                    if (CurrentNumber == 0)
+                    {
+                        CurrentNumber = Double.Parse(parameter);
+                    }
+                    else
+                    {
+                        if (!State)
+                        {
+                            CurrentNumber = Double.Parse(CurrentNumber+parameter);
+                            
+                        }
+                        else
+                        {
+                            CurrentNumber = Double.Parse(parameter);
+                        }
+                    }
                 });
 
             OperatorNumber = new Command<String>(
@@ -76,6 +100,7 @@ namespace Calculadora.ViewModels
                     {
                         PrevNumber = CurrentNumber;
                         CurrentNumber = 0;
+                        
                     }
                 });
             
@@ -100,6 +125,7 @@ namespace Calculadora.ViewModels
                             break;
                     }
 
+                    State = true;
                     Operation = "";
                 });
             
@@ -108,6 +134,7 @@ namespace Calculadora.ViewModels
                 PrevNumber = 0;
                 CurrentNumber = 0;
                 Operation = "";
+                State = false;
             });
             
         }
